@@ -3,9 +3,18 @@ import Link from "next/link";
 import AnimatedSection from "@/components/AnimatedSection";
 
 export const metadata: Metadata = {
-  title: "Payroll Outsourcing - ReliablePay",
+  title: "Payroll Outsourcing",
   description:
-    "Complete payroll outsourcing solutions for Australian businesses. Let us handle your entire payroll process professionally.",
+    "Complete payroll outsourcing solutions for Australian businesses. End-to-end payroll management, dedicated specialists, and scalable services to suit your business.",
+  alternates: {
+    canonical: "https://reliablepay.com.au/services/payroll-outsourcing",
+  },
+  openGraph: {
+    title: "Payroll Outsourcing - ReliablePay",
+    description:
+      "Complete payroll outsourcing solutions for Australian businesses. End-to-end payroll management, dedicated specialists, and scalable services to suit your business.",
+    url: "https://reliablepay.com.au/services/payroll-outsourcing",
+  },
 };
 
 const features = [

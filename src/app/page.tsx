@@ -1,6 +1,22 @@
+import { Metadata } from "next";
 import Link from "next/link";
 import AnimatedSection from "@/components/AnimatedSection";
 import ServiceCard from "@/components/ServiceCard";
+
+export const metadata: Metadata = {
+  title: "ReliablePay - Payroll & Payment Solutions for Australian Businesses",
+  description:
+    "Streamline your payroll operations with ReliablePay. Professional payroll processing, salary disbursement, superannuation, and compliance services for Australian businesses.",
+  alternates: {
+    canonical: "https://reliablepay.com.au",
+  },
+  openGraph: {
+    title: "ReliablePay - Payroll & Payment Solutions for Australian Businesses",
+    description:
+      "Streamline your payroll operations with ReliablePay. Professional payroll processing, salary disbursement, superannuation, and compliance services for Australian businesses.",
+    url: "https://reliablepay.com.au",
+  },
+};
 
 const services = [
   {

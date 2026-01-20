@@ -2,9 +2,16 @@ import { Metadata } from "next";
 import AnimatedSection from "@/components/AnimatedSection";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions - ReliablePay",
+  title: "Terms & Conditions",
   description:
-    "Read our terms and conditions for using ReliablePay services and website.",
+    "Terms and conditions for using ReliablePay services and website. Read before engaging Reliable Pay Solutions Pty Ltd for payroll services.",
+  alternates: {
+    canonical: "https://reliablepay.com.au/terms-conditions",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function TermsConditionsPage() {

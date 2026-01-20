@@ -2,9 +2,16 @@ import { Metadata } from "next";
 import AnimatedSection from "@/components/AnimatedSection";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - ReliablePay",
+  title: "Privacy Policy",
   description:
-    "Read our privacy policy to understand how ReliablePay collects, uses, and protects your personal information.",
+    "ReliablePay privacy policy. Learn how Reliable Pay Solutions Pty Ltd collects, uses, and protects your personal information in accordance with Australian privacy laws.",
+  alternates: {
+    canonical: "https://reliablepay.com.au/privacy-policy",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function PrivacyPolicyPage() {

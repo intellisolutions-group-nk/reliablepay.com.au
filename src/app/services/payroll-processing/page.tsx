@@ -3,9 +3,18 @@ import Link from "next/link";
 import AnimatedSection from "@/components/AnimatedSection";
 
 export const metadata: Metadata = {
-  title: "Payroll Processing - ReliablePay",
+  title: "Payroll Processing Services",
   description:
-    "Professional payroll processing services for Australian businesses. Accurate calculations, timely payments, and complete compliance.",
+    "Professional payroll processing for Australian businesses. Accurate salary calculations, tax withholding, leave management, and timely payments every pay cycle.",
+  alternates: {
+    canonical: "https://reliablepay.com.au/services/payroll-processing",
+  },
+  openGraph: {
+    title: "Payroll Processing Services - ReliablePay",
+    description:
+      "Professional payroll processing for Australian businesses. Accurate salary calculations, tax withholding, leave management, and timely payments every pay cycle.",
+    url: "https://reliablepay.com.au/services/payroll-processing",
+  },
 };
 
 const features = [

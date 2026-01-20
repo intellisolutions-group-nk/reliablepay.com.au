@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://reliablepay.com.au/sitemap.xml
+
+# Disallow admin/api paths (none currently, but good practice)
+Disallow: /api/

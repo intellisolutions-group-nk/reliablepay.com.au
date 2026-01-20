@@ -3,9 +3,18 @@ import Link from "next/link";
 import AnimatedSection from "@/components/AnimatedSection";
 
 export const metadata: Metadata = {
-  title: "About ReliablePay - Professional Payroll Solutions",
+  title: "About Us",
   description:
-    "Learn about ReliablePay and our commitment to providing reliable payroll and payment solutions for Australian businesses.",
+    "Learn about Reliable Pay Solutions Pty Ltd and our commitment to providing reliable payroll and payment solutions for Australian businesses. Based in NSW, Australia.",
+  alternates: {
+    canonical: "https://reliablepay.com.au/about",
+  },
+  openGraph: {
+    title: "About ReliablePay - Professional Payroll Solutions",
+    description:
+      "Learn about Reliable Pay Solutions Pty Ltd and our commitment to providing reliable payroll and payment solutions for Australian businesses.",
+    url: "https://reliablepay.com.au/about",
+  },
 };
 
 const values = [

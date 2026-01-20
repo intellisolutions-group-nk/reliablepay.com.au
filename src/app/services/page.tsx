@@ -3,9 +3,18 @@ import Link from "next/link";
 import AnimatedSection from "@/components/AnimatedSection";
 
 export const metadata: Metadata = {
-  title: "Services - ReliablePay",
+  title: "Our Services",
   description:
-    "Explore our comprehensive payroll and payment services including payroll processing, salary disbursement, superannuation, compliance reporting, and payroll outsourcing.",
+    "Comprehensive payroll services for Australian businesses: payroll processing, salary disbursement, superannuation, STP compliance, and complete payroll outsourcing.",
+  alternates: {
+    canonical: "https://reliablepay.com.au/services",
+  },
+  openGraph: {
+    title: "Payroll Services - ReliablePay",
+    description:
+      "Comprehensive payroll services for Australian businesses: payroll processing, salary disbursement, superannuation, STP compliance, and complete payroll outsourcing.",
+    url: "https://reliablepay.com.au/services",
+  },
 };
 
 const services = [

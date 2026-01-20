@@ -3,9 +3,18 @@ import Link from "next/link";
 import AnimatedSection from "@/components/AnimatedSection";
 
 export const metadata: Metadata = {
-  title: "Superannuation Processing - ReliablePay",
+  title: "Superannuation Processing",
   description:
-    "Compliant superannuation processing services for Australian businesses. Ensuring correct contributions and timely payments to employee super funds.",
+    "Compliant superannuation processing for Australian businesses. Super guarantee calculations, fund contribution management, and quarterly reporting to meet ATO requirements.",
+  alternates: {
+    canonical: "https://reliablepay.com.au/services/superannuation-processing",
+  },
+  openGraph: {
+    title: "Superannuation Processing - ReliablePay",
+    description:
+      "Compliant superannuation processing for Australian businesses. Super guarantee calculations, fund contribution management, and quarterly reporting to meet ATO requirements.",
+    url: "https://reliablepay.com.au/services/superannuation-processing",
+  },
 };
 
 const features = [

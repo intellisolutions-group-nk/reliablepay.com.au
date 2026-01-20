@@ -3,9 +3,18 @@ import Link from "next/link";
 import AnimatedSection from "@/components/AnimatedSection";
 
 export const metadata: Metadata = {
-  title: "Security & Compliance - ReliablePay",
+  title: "Security & Compliance",
   description:
-    "Learn about our commitment to security and compliance in payroll processing. We prioritise data protection and regulatory adherence.",
+    "ReliablePay prioritises data security and regulatory compliance. Learn about our data protection measures, STP compliance, and Australian payroll regulations adherence.",
+  alternates: {
+    canonical: "https://reliablepay.com.au/security-compliance",
+  },
+  openGraph: {
+    title: "Security & Compliance - ReliablePay",
+    description:
+      "ReliablePay prioritises data security and regulatory compliance. Learn about our data protection measures, STP compliance, and Australian payroll regulations adherence.",
+    url: "https://reliablepay.com.au/security-compliance",
+  },
 };
 
 const securityFeatures = [

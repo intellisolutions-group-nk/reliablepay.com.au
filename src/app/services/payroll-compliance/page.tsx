@@ -3,9 +3,18 @@ import Link from "next/link";
 import AnimatedSection from "@/components/AnimatedSection";
 
 export const metadata: Metadata = {
-  title: "Payroll Compliance & Reporting - ReliablePay",
+  title: "Payroll Compliance & Reporting",
   description:
-    "Comprehensive payroll compliance and reporting services for Australian businesses. Stay compliant with all regulatory requirements.",
+    "Payroll compliance and reporting services for Australian businesses. Single Touch Payroll (STP), PAYG reporting, Fair Work compliance, and ATO lodgement.",
+  alternates: {
+    canonical: "https://reliablepay.com.au/services/payroll-compliance",
+  },
+  openGraph: {
+    title: "Payroll Compliance & Reporting - ReliablePay",
+    description:
+      "Payroll compliance and reporting services for Australian businesses. Single Touch Payroll (STP), PAYG reporting, Fair Work compliance, and ATO lodgement.",
+    url: "https://reliablepay.com.au/services/payroll-compliance",
+  },
 };
 
 const features = [

@@ -4,9 +4,18 @@ import AnimatedSection from "@/components/AnimatedSection";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact Us - ReliablePay",
+  title: "Contact Us",
   description:
-    "Get in touch with ReliablePay for professional payroll and payment solutions. We are here to help your business.",
+    "Contact ReliablePay for professional payroll services. Email info@reliablepay.com.au or fill out our contact form. Free consultation for Australian businesses.",
+  alternates: {
+    canonical: "https://reliablepay.com.au/contact",
+  },
+  openGraph: {
+    title: "Contact ReliablePay - Get in Touch",
+    description:
+      "Contact ReliablePay for professional payroll services. Email info@reliablepay.com.au or fill out our contact form. Free consultation for Australian businesses.",
+    url: "https://reliablepay.com.au/contact",
+  },
 };
 
 const contactInfo = [

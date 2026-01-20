@@ -3,9 +3,18 @@ import Link from "next/link";
 import AnimatedSection from "@/components/AnimatedSection";
 
 export const metadata: Metadata = {
-  title: "Salary & Wage Disbursement - ReliablePay",
+  title: "Salary & Wage Disbursement",
   description:
-    "Secure and timely salary and wage disbursement services for Australian businesses. Reliable payment processing for your employees.",
+    "Secure salary and wage disbursement services for Australian businesses. Direct bank transfers, scheduled payments, and reliable payment processing for employees.",
+  alternates: {
+    canonical: "https://reliablepay.com.au/services/salary-disbursement",
+  },
+  openGraph: {
+    title: "Salary & Wage Disbursement - ReliablePay",
+    description:
+      "Secure salary and wage disbursement services for Australian businesses. Direct bank transfers, scheduled payments, and reliable payment processing for employees.",
+    url: "https://reliablepay.com.au/services/salary-disbursement",
+  },
 };
 
 const features = [
