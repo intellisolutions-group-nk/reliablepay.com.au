@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -43,13 +44,15 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center transition-transform group-hover:scale-105">
-              <span className="text-white font-bold text-xl">R</span>
-            </div>
-            <span className="text-xl font-heading font-bold text-primary">
-              ReliablePay
-            </span>
+          <Link href="/" className="flex items-center group">
+            <Image
+              src="/RealiablePay.png"
+              alt="ReliablePay"
+              width={200}
+              height={50}
+              className="h-12 w-auto transition-transform group-hover:scale-105"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}

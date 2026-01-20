@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   title: "ReliablePay - Payroll & Payment Solutions for Australian Businesses",
   description: "ReliablePay provides professional payroll processing, salary disbursement, superannuation processing, compliance reporting, and payroll outsourcing services for Australian businesses.",
   keywords: "payroll processing, salary disbursement, superannuation, payroll compliance, payroll outsourcing, Australia",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
